@@ -1,0 +1,22 @@
+{
+	"geode": "5.11.2",
+	"gd": {
+		"win": "2.2081",
+		"android": "2.2081"
+	},
+	"id": "insirius.modmenu",
+	"name": "insirius's mod menu",
+	"version": "v2.0.0",
+	"developer": "insirius",
+	"description": "Mod menu with a path-predicting input buffer, macros, bypasses and more",
+	"early-load": true,
+	"settings": {
+		"legacy-render": {
+			"name": "Legacy menu rendering",
+			"description": "Turn this on if the menu doesn't show up on an older phone.",
+			"type": "bool",
+			"default": false,
+			"requires-restart": true
+		}
+	}
+}
